@@ -1,0 +1,403 @@
+/*头部*/
+.HeadBar{
+    width:auto;
+    height: 30px;
+    background-color: #073f7a;
+}
+.HeadBar_Fl{
+    position: absolute;
+    left: 80px;
+    height: 30px;
+}
+.HeadBar_Fl a{
+    line-height: 30px;
+    padding: 0 5px;
+    color: #fff;
+    font-size: 12px;
+}
+.HeadBar_Rl{
+    position: absolute;
+    top: 0;
+    left: 980px;
+    height: 30px;
+}
+.HeadBar_Rl a{
+    line-height: 30px;
+    padding: 0 5px;
+    color: #fff;
+    font-size: 12px;
+}
+.HeadBar a:hover{
+    color: chocolate;
+}
+/*头部图片*/
+.HeadImg{
+    height: 110px;
+    background: url("../Img/Head_1.png");
+    border-bottom: 1px solid #82bbf8;
+}
+.HeadImg img{
+    position:absolute;
+    left: 80px;
+    top: 53px;
+}
+.HeadImg input{
+    background-color: #08478a;
+    height: 40px;
+    position: absolute;
+    top: 70px;
+    left: 970px;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 14px;
+    width: 250px;
+}
+.HeadImg .Input img{
+    position: absolute;
+    top: 75px;
+    left: 1190px;
+}
+/*导航*/
+.HeadBox{
+    background-color: #004ea1;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+}
+
+.HeadBox ul li ul li{
+    float: none;
+}
+.HeadBox #Head_2{
+    position: absolute;
+    left: 132px;
+}
+.HeadBox ul li{
+    width:   140px;
+    text-align: center;
+}
+.HeadBox ul li a{
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    padding:0 10px;
+    line-height: 50px;
+    display: block
+}
+.HeadBox a:hover{
+    background-color: #033f7f;
+}
+.HeadBox ul li ul li a{
+    font-size: 14px;
+    color: #fff;
+    width: 160px;
+    padding:0 10px;
+    line-height: 40px;
+    display: block;
+    background-color: #033f7f;
+    text-align: left;
+}
+.HeadBox ul li ul li a:hover{
+    color: #177fed;
+}
+.HeadBox ul li ul{
+    display: none;
+}
+
+/*轮播图*/
+
+#container {
+    width:1199px;
+    height:496px;
+    overflow: hidden;
+    position:relative;
+    margin:0 auto;
+    top: 50px;
+}
+#list{
+    width:9592px;
+    height: 397px;
+    position: absolute;
+    z-index: 1 ;
+}
+#list img{ float:left;}
+#buttons{
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    z-index: 2;
+    bottom: 125px;
+    left: 522px;
+}
+#buttons span{
+    cursor: pointer;
+    border: 1px solid #fff;
+    float:left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    margin-right: 5px;
+}
+#buttons .on{ background-color: red;}
+.arrow{
+    cursor: pointer;
+    display: none;
+    line-height: 100px;
+    text-align: center;
+    font-size:60px;
+    width:60px;
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    top:150px;
+    color: #fff;
+    background-color:#900;
+}
+#container:hover .arrow{ display: block;}
+#prev{left:0;}
+#next{right:0;}
+
+/*新闻部分*/
+.NewHead{
+    padding-left: 80px;
+}
+.NewBar{
+    position: absolute;
+    left: 1174px;
+}
+.LeftButton{
+    position: absolute;
+    top:800px;
+    height: 30px;
+    color: #666;
+    z-index: 3;
+    left: 10px;
+    font-size: 120px;
+    font-weight: 800;
+    width: 10px;
+}
+.RightButton{
+    position: absolute;
+    top:800px;
+    height: 30px;
+    color: #666;
+    z-index: 3;
+    left: 1280px;
+    font-size: 120px;
+    font-weight: 800;
+    width: 10px;
+}
+#NewCon{
+    position: relative;
+    top: 70px;
+    width: 1199px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 400px;
+}
+#NewList{
+    position: absolute;
+    width: 2398px;
+
+}
+#NewCon .List_1{
+    width: 397px;
+    height: 390px;
+    text-align: center;
+}
+.aQuk{
+    width: 80px;
+    height: 60px;
+    background-color: #004ea1;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.newText{
+    width: 270px;
+    height: 140px;
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.List_1 h3{
+    line-height: 28px;
+}
+.List_1 p{
+    margin-top: 6px;
+    line-height: 18px;
+}
+/*新闻——文字部分*/
+.NewText_1{
+    position: absolute;
+    top: 1150px;
+    left: 90px;
+    width: 770px;
+    height: 500px;
+}
+/*右侧*/
+.newText_2{
+    position: absolute;
+    top:1150px;
+    left: 880px;
+    margin-right: 50px;
+    width: 380px;
+    height: 400px;
+    background-color: #ddd;
+}
+.newText_2 .R_text a:hover{
+    color: #033f7f;
+}
+.newText_2 .R_text{
+    padding: 10px;
+    width: 224px;
+}
+.newText_2 .R_text a{
+    display: block;
+    padding:2px 12px;
+    color: #445;
+    font-size: 13px;
+    line-height: 24px;
+    border-bottom: 1px dashed #888;
+}
+.newText_2 .F_text{
+    width: 360px;
+    height: 200px;
+    padding:5px 15px;
+}
+.newText_2 .F_text a{
+    color: #555;
+    padding:8px 16px;
+    border-bottom: 1px dashed #888;
+    display: block;
+    line-height: 22px;
+}
+.newText_2 .F_text a:hover{
+    color: #033f7f;
+}
+.newText_3{
+    position: relative;
+    top:505px;
+    left: 880px;
+    margin-right: 50px;
+    width: 380px;
+    height: 180px;
+    background-color: #ddd;
+}
+.newText_3 img{
+    padding: 10px;
+}
+.newText_3 .F_text1{
+    width: 220px;
+    height: 180px;
+    color: #555;
+}
+.newText_3 h1{
+    margin: 10px 0;
+}
+.newText_3 h4{
+    margin: 10px 4px;
+    background-color: #777;
+    color: #fff;
+    padding:6px 4px ;
+}
+.newText_3 p{
+    line-height: 18px;
+    margin-right: 15px;
+}
+.newText_3 a:hover{
+    color: #033f7f;
+}
+
+.aLen{
+    width: 100px;
+    height: 30px;
+    color: #555;
+    line-height: 40px;
+}
+.Text_1{
+    width: 770px;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 30px;
+}
+.myText{
+    margin: 20px;
+    width: 500px;
+}
+.li_Text_1{
+    font-family:  Georgia;
+    font-size: 16px;
+    margin: 20px;
+    color: #666;
+}
+.li_Text_2{
+    margin:20px;
+    margin-right: 70px;
+    font-size: 16px;
+    color: #555;
+}
+.li_Text_3{
+    margin: 20px 10px;
+    font-size: 14px;
+    color: #333;
+}
+.NewText_1 td{
+    padding-top: 16px;
+    padding-right: 45px;
+}
+.NewText_1 td a{
+    color: #555;
+}
+.NewText_1 td a:hover{
+    color: #004ea1;
+}
+.Text_2{
+    width: 1199px;
+    height: 40px;
+    border-bottom: 3px solid #033f7f;
+    margin-top: 30px;
+}
+.Text_2 td{
+    padding: 30px 10px;
+}
+/*底部信息*/
+.Foot_1{
+    position: absolute;
+    top:1930px;
+    width: 1347px;
+    height: 239px;
+    background: url("../Img/Foot_1.png") left center no-repeat;
+    color: #fff;
+}
+.FootText_1{
+    margin: 40px 89px;
+    margin-right: 120px;
+}
+.FootText_1 a{
+    color: #fff;
+}
+.FootText_1 a:hover{
+    color: #888;
+}
+.Foot_1 img{
+    margin: 50px 50px;
+}
+.FootText_1 td{
+    padding: 10px 15px;
+}
+.Foot_2{
+    position: relative;
+    top: 905px;
+    width: 1347px;
+    height: 50px;
+    background-color: #052e5a;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+}

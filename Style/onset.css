@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+}
+li{
+    list-style: none;
+    float: left;
+}
+input,select, textarea,button{outline: none; border: none;background: none}
+a{
+    text-decoration: none;
+    color: #656565;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
